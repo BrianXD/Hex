@@ -21,29 +21,19 @@
         font-weight: 900;
         margin-left: 0;
       }
-  
-    .ai-header>p{
+    .ai-header>h1{
     font-size: 48px;
     font-weight: 900;
   }
   .navbar{
-   
-    padding: 28px 0;
-  
-    /*
-    position: sticky;
-    top:0;
-    left:0;
-    right:0;*/
+    padding: 28px 0;               
    }
    .ai-header a{
     margin-bottom: 180px;
    }
    .header-arrow{
-   
     margin-bottom: 120px;
     justify-content: center;
-   
     }
     .header-service{
         margin-bottom: 48px;
@@ -56,7 +46,6 @@
     .header-service p{
         font-size: 32px;
     }
-    
     .header-service-listbox{
         flex-direction: column;
         align-items: center;
@@ -83,7 +72,7 @@
       .ai-tools{
         border-radius: 20px;
       }
-      .ai-tools h1{
+      .ai-tools h2{
         font-size: 32px;
         text-align: center;
         margin-bottom: 32px;
@@ -115,12 +104,19 @@
         margin-bottom: 32px;
       }
       .card-box {
-        width: 100%;
+        width: 49%;
         margin-bottom: 12px;
-      
       }
       .footer-service{
         margin-bottom: 160px;
+      }
+      .footer-service ul{
+        font-size: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 32px;
       }
       .footer-nav-price ul{
         font-size: 48px;
@@ -153,8 +149,6 @@
         align-items: center;
         border-top:none;
         border-bottom:1px solid #fff;
-
-        
       }
       .footer-nav-price-ul{
         font-size: 80px!important;

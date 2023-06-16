@@ -1,0 +1,16 @@
+•	由於瀏覽器預設文字大小就是 16px，所以不用另外設定 font-size: 16px 唷
+•	有使用 a 標籤的區塊都可加上 hover 效果
+•	之後改用 SCSS 時可以參考 Sass 7-1 Pattern 的檔案管理方式唷
+https://israynotarray.com/css/20200523/116058774/
+•	斷點規劃的部份可參考 RWD 斷點規劃，優先處理熱門斷點，避免產生網頁 X 軸
+首頁
+https://ithelp.ithome.com.tw/articles/10219610
+
+•	.navbar 右側需依設計稿補上選單區塊
+•	「透過AI工具王的強大模型讓您的業務更聰明」這段也可改為標題標籤
+•	由新到舊選單可使用 select 標籤設計
+•	圖片 hover 部分可改為 .card-box:hover img，因設計稿是在游標移到 li 時就觸發 hover 效果
+•	.paging-list 不需多包一層 div，可將樣式設定直接移到這層
+•	「現在就來建立屬於你的服務吧」文字在手機版需依設計稿斷行
+•	目前頁面在 440px 以下會產生 X 軸，可在 768px 以下加入手機版型斷點，並調整 .header-service h2 設定的寬度，避免 X 軸產生
+
